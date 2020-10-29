@@ -12,9 +12,7 @@
     "environments": {
       "defaultValue": [
         "Dev",
-        "QA",
-        "UAT",
-        "Preview"
+        "UAT"
       ],
       "type": "array",
       "metadata": {
