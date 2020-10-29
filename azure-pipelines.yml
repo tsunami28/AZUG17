@@ -1,0 +1,20 @@
+trigger:
+- main
+
+pool:
+  vmImage: 'ubuntu-latest'
+
+steps:
+- task: AzureResourceManagerTemplateDeployment@3
+  inputs:
+    deploymentScope: 'Resource Group'
+    azureResourceManagerConnection: '1000190120 DEVOPS Mirabeau Azure Intern(058a36cd-ad87-41c0-8431-a09e57423aee)'
+    subscriptionId: '058a36cd-ad87-41c0-8431-a09e57423aee'
+    action: 'Create Or Update Resource Group'
+    resourceGroupName: 'AZUG17-Prebuild'
+    location: 'West Europe'
+    templateLocation: 'URL of the file'
+    csmFileLink: 'https://github.com/tsunami28/AZUG17/tree/main/Infra/azuredeploy.json'
+    csmParametersFileLink: 'https://github.com/tsunami28/AZUG17/tree/main/Infra/azuredeploy.parameters.json'
+    deploymentMode: 'Incremental'
+    deploymentName: 'azug-prime'
