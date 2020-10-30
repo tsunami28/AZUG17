@@ -4,6 +4,9 @@
     "parameters": {
       "baseResourceName": {
         "value": "AZUG17"
+      },
+      "clientId": {
+          "value": "3dcb4861-8798-48eb-b962-88a591f20475"
       }
     }
   }
