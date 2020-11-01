@@ -1,0 +1,2 @@
+ControlId,FeatureName,Status,SupportedResources,Severity,PropertyPath,LineNumber,CurrentValue,ExpectedProperty,ExpectedValue,ResourcePath,ResourceLineNumber,Description,FilePath
+Azure_AppService_Deploy_Use_Latest_Version,AppService,Failed,"Microsoft.Web/sites , Microsoft.Web/serverfarms , Microsoft.Web/sites/config",Low,Not found,-1,,$.properties.siteConfig.netFrameworkVersion | $.properties.netFrameworkVersion,Allow '^(v4.0|v4.7)$',"resources[1] , resources[0]",40,The latest version of .NET framework version should be used for App Service,.\azuredeploysecured.json
