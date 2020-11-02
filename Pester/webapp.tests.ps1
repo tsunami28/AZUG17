@@ -17,7 +17,7 @@ Describe "Template: webapp-custom-deployment-slots" -Tags Unit, azuredeploy {
             $templateProperties | Should -Be $expectedProperties
         }
         It "parameters file Exist " {        
-            "$here\drscoding\Presentations\AZUG17\AZUG17\Infra\$parmFile" | Should -Exist
+            "$here\a\1\s\Infra\$paramFile" | Should -Exist
         }  
         It "Converts from parameter files and has the expected template schema" {
             $expectedProperties = '$schema',
