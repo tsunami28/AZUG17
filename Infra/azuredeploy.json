@@ -26,6 +26,9 @@
       "metadata": {
         "description": "Location for all resources."
       }
+    },
+    "clientId": {
+      "type": "string"
     }
   },
   "variables": {
