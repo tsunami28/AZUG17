@@ -5,7 +5,7 @@
     "baseResourceName": {
       "type": "string",
       "metadata": {
-        "description": "Name of the resource"
+        "description": "Prefix name of the resource"
       },
       "maxLength": 15
     },
