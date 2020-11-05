@@ -4,4 +4,4 @@
 
 ## Template "azuredeploysecured" is a modified template based on security findings
 
-[![Deploy to Azure](https://azurecomcdn.azureedge.net/mediahandler/acomblog/media/Default/blog/deploybutton.png)](https://azuredeploy.net/)
+[![Deploy to Azure](https://aka.ms/deploytoazurebutton)](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2Ftsunami28%2FAZUG17%2Fmain%2FInfra%2Fazuredeploy.json)
